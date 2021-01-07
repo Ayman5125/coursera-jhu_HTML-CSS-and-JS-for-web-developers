@@ -1,1 +1,105 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>module2 assignment</title>
+	<style>
 
+		/****Base Styles****/
+
+		* {
+			box-sizing: border-box;
+			font-family: Times New Roman;
+		}
+		h1 {
+			font-size: 2em;
+			text-align: center;
+			color: #002303;
+			text-shadow: 4px 4px 5px #005224; 
+		}
+		p {
+			background-color: #c4c4c4;
+			position: relative;
+		}
+		span {
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			border: 1px solid black;
+			padding-top: 5px;
+			padding-right: 10px;
+			padding-bottom: 5px;
+			padding-left: 10px;
+			font-size: 1.25em;
+		}
+		#s1 {
+			background-color: #ff9092;
+			font-weight: bold;
+		}
+		#s2 {
+			background-color: #940201;
+			color: #ffffff;
+			font-weight: bold;
+		}
+		#s3 {
+			background-color: #ffd286;
+			font-weight: bold;
+		}
+
+		/****Desktop View****/
+
+		@media (min-width: 992px) {
+		p {
+			width: 33.33%;
+			border: 2px solid black;
+			float: left;
+			padding: 5px;
+		}
+	    }
+
+	    /****Tablet View****/
+
+	    @media (min-width: 768px) and (max-width: 991px) {
+	    	p {
+	    		width: 50%;
+	    		border: 1px solid black;
+	    		float: left;
+	    		padding: 4px;
+	    	}
+	    	#p3 {
+	    		width: 100%;
+	    		clear: left;
+	    		padding: 5px;
+	    	}
+	    }
+
+	    /****Mobile View****/
+
+	    @media (max-width: 767px) {
+	    	p {
+	    		width: 100%;
+	    		border: 1px solid black;
+	    		padding: 5px;
+	    	}
+	    }
+	</style>
+</head>
+<body>
+	<h1>Module-2 Assignment</h1>
+<div>
+	<p>
+		<span id="s1">Chicken</span><br>
+		<br>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis ex a eros lacinia, in ornare sem varius. Mauris neque nunc, pharetra sed faucibus vitae, rutrum feugiat nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In id egestas purus. Morbi odio ipsum, tincidunt ac lobortis sit amet, finibus non est. In ullamcorper est magna, sed tristique urna condimentum vel. Duis ex metus, gravida id ultrices vel, dignissim eget purus.</p>
+	<p>
+		<span id="s2">Beef</span><br>
+		<br>
+	Cras et erat lacus. Nam elementum viverra eros, non dignissim lectus fringilla vel. Proin viverra ex nec nibh consectetur fringilla. Nunc sollicitudin justo eu gravida ullamcorper. Ut eget nunc nibh. Ut interdum tellus sapien, ac eleifend erat pellentesque non. Nullam vulputate odio id massa vestibulum fermentum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas fringilla massa in erat consectetur, sit amet malesuada lacus rutrum.</p>
+	<p id="p3">
+		<span id="s3">Sushi</span><br>
+		<br>
+	Sed fringilla, urna eget eleifend blandit, nisi orci fermentum justo, auctor scelerisque odio purus in augue. Nunc pretium dapibus congue. Integer bibendum massa elit, in dictum lorem interdum ut. Aliquam vitae orci ac elit ultricies eleifend. Curabitur et enim et justo convallis egestas. Suspendisse potenti. Proin commodo quam ut sapien volutpat vehicula. Quisque vestibulum dui id nibh molestie, non scelerisque arcu pretium. Sed tincidunt eu ligula a imperdiet. Curabitur quis.</p>
+</div>
+</body>
+</html>
