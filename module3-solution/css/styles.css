@@ -1,0 +1,67 @@
+body {
+	font-size: 16px;
+	color: #000;
+	font-family: Oxygen, sans-serif;
+}
+#content {
+	padding: 10px;
+	background-color: #9a9a9a;
+	width: 90%;
+	margin: 0px auto;
+}
+
+#header-nav {
+	background-color: #7a7a7a;
+	border-radius: 0;
+	border: 0;
+	border-bottom: 3px solid black;
+}
+#header {
+	font-weight: bold;
+	font-family: 'Potta One', cursive;
+	margin: 15px 0 15px 0;
+	display: inline-block;
+}
+.text-center {
+	font-family: 'Merienda One', cursive;
+	margin: 20px;
+}
+#Chicken {
+	font-family: 'Merienda One', cursive;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+p {
+	font-weight: bold;
+}
+@media (min-width: 992px) {
+	.text-center {
+		margin-bottom: 40px;
+	}
+	ul {
+		display: none;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#content {
+		width: 80%;
+	}
+	p {
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+}
+@media (max-width: 767px) {
+	#header {
+		margin-left: 40px;
+	}
+	#content {
+		width: 80%;
+	}
+	p {
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+}
