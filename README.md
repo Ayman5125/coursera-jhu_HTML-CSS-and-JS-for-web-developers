@@ -1,2 +1,2 @@
-# Course-projects
+# coursera-test
 Coursera test repository
